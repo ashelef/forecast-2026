@@ -9,7 +9,7 @@ window.SITE_CONFIG = {
   // The name shown at the top of your site. A nickname or made-up forecaster
   // name is fine and recommended. Do not put your real name, email, photo,
   // or anything else that identifies you on this site.
-  forecaster_name: "Aharon",
+  forecaster_name: "Aharon's Forecast 2026",
 
   // One short line under the name (optional).
   tagline: "",
@@ -25,11 +25,11 @@ window.SITE_CONFIG = {
   //   "A fundamentals-only model (no polls). Each race's predicted Democratic share combines the district's partisan lean, incumbency, and a forecast of the national House vote from presidential approval, gas prices, income and the midterm penalty.",
   //   "Uncertainty combines one national error shared by every race with a separate error for each race. Seat totals come from 10,000 simulated elections.",
   method: [
-    "Model factors in predicted national environment, state/district partisanship, and candidate quality.",
+    "Model factors in predicted national environment, state/district partisanship, and candidate quality, trained on all congressional elections since 2012. (Separate models for House and Senate.)",
     "National environment is predicted from midterm status and generic ballot polls over the last 20 years.",
     "State/district partisanship uses Cook Political Report's 75% weight on the most recent presidential result (centered on the national popular vote) and 25% weight on the previous one.",
     "Candidate quality is measured by past electoral performance relative to expectations based on national environment and state/district partisanship and by current Cook Political Report race rating relative to expectations based on predicted national environment and state/district partisanship.",
-    "Forecast simulates 100,000 Election Days where, within each simulation, every race shares one national error and has its own independent error as well.",
+    "Forecast simulates 100,000 Election Days where, within each simulation, every race shares one national error and has its own independent error.",
     "Contact Aharon for more details."
   ],
 
